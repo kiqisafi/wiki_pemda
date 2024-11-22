@@ -1,0 +1,115 @@
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.login-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 400px;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.login-logo {
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form .form-control {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-form .form-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-form .form-check-label {
+  margin-left: 8px;
+}
+
+.login-btn {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 0;
+}
+
+.login-info {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #1984dc;
+}
+
+.login-info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9fafc;
+  color: white; /* Atur warna teks menjadi putih */
+}
+
+.login-logo {
+  width: 200px; /* Ubah ukuran lebar logo menjadi 120px */
+  margin-bottom: 16px;
+}
+
+.form-check-label {
+  color: #0056b3; /* Ubah warna teks menjadi biru */
+}
+
+.login-btn {
+  background-color: #0056b3; /* Warna biru */
+  border: none; /* Menghilangkan border default */
+  color: white; /* Warna teks putih */
+  width: 80%; /* Ubah lebar tombol sesuai kebutuhan (misalnya 80%) */
+  padding: 10px; /* Padding tombol */
+  border-radius: 4px; /* Sudut tombol yang membulat */
+  margin: 20px auto 0; /* Margin atas 20px, margin kiri dan kanan otomatis untuk memusatkan */
+  display: block; /* Pastikan tombol menjadi elemen blok untuk menggunakan margin otomatis */
+}
+
+.login-btn:hover {
+  background-color: #004494; /* Warna biru lebih gelap saat hover */
+}
+
+.login-form .form-control {
+  width: 100%; /* Lebarkan input agar memenuhi lebar kotak */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px; /* Anda bisa menyesuaikan padding jika perlu */
+  font-size: 16px;
+}
+
+
